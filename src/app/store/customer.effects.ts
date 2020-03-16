@@ -9,7 +9,7 @@ import types from './action.types'
 import * as customerActions from './customer.actions'
 
 @Injectable({ providedIn: 'root' })
-export class CustomerEffect {
+export class CustomerEffects {
   constructor(
     private customerSrv: CustomerService,
     private actions$: Actions

@@ -4,6 +4,7 @@ import CustomerModel from '../models/customer.model'
 
 export class LoadCustomersAction implements Action {
   readonly type = types.LOAD_CUSTOMERS
+  constructor(public payload: undefined | null) {}
 }
 
 export class LoadCustomersSuccessAction implements Action {
